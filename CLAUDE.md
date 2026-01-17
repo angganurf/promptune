@@ -18,8 +18,6 @@ promptune is a Claude Code plugin that provides natural language to slash comman
 **Version Increment Rule:**
 
 - ALL version changes increment by **0.0.1** (patch level only)
-- Current: 0.8.3 → Next: 0.8.4 → After: 0.8.5
-- NO major/minor bumps (0.9.0, 1.0.0, etc.)
 
 **Files to Update:**
 
@@ -32,14 +30,14 @@ promptune is a Claude Code plugin that provides natural language to slash comman
 ```json
 // .claude-plugin/plugin.json
 {
-  "version": "0.8.4"  // Was 0.8.3
+  "version": "0.0.1"
 }
 
 // .claude-plugin/marketplace.json
 {
-  "version": "0.8.4",  // Marketplace version
+  "version": "0.0.1",  // Marketplace version
   "plugins": [{
-    "version": "0.8.4"  // Plugin version
+    "version": "0.0.1"  // Plugin version
   }]
 }
 ```
@@ -274,7 +272,7 @@ uv run mypy lib/
 {
 	"prompt": "user's natural language input",
 	"session_id": "unique-session-id",
-	"timestamp": "2025-10-14T10:30:00Z"
+	"timestamp": "2026-01-16T10:30:00Z"
 }
 ```
 
@@ -529,17 +527,14 @@ sqlite3 ~/.claude/plugins/promptune/data/observability.db \
 ### Best Practices
 
 1. **Estimate tokens during planning**
-
    - Break down context/reasoning/output for each task
    - Use complexity tiers as rough guide
 
 2. **Choose appropriate model**
-
    - Haiku for execution (known plan, low thinking needed)
    - Sonnet for complex reasoning (architecture, design)
 
 3. **Track actual vs estimated**
-
    - Compare estimates to observability_db.py logs
    - Refine estimation over time
 
@@ -738,7 +733,7 @@ Hooks run automatically with user's permissions. Be careful:
 ### Community
 
 - [Claude Code Discord](https://discord.gg/anthropic)
-- [GitHub Discussions](https://github.com/yourusername/promptune/discussions)
+- [GitHub Discussions](https://github.com/angganurf/promptune/discussions)
 
 ### Examples
 

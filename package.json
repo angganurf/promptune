@@ -1,6 +1,6 @@
 {
 	"name": "promptune",
-	"version": "0.9.0",
+	"version": "0.0.1",
 	"description": "Precision-Tuned Context Engineering for Claude Code",
 	"private": true,
 	"dependencies": {
@@ -10,6 +10,7 @@
 	"keywords": [
 		"claude-code",
 		"plugin",
+		"prompt-engineering",
 		"context-engineering"
 	],
 	"author": "XG4W",

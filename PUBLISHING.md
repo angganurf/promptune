@@ -37,14 +37,14 @@ Claude Code uses a **decentralized marketplace system**. Unlike centralized app 
 
 # Commit all changes
 git add .
-git commit -m "release: v0.1.0 - initial beta release"
+git commit -m "release: v0.0.1 - initial beta release"
 
 # Create git tag
-git tag -a v0.1.0 -m "v0.1.0: Initial beta release with parallel workflow support"
+git tag -a v0.0.1 -m "v0.0.1: Initial beta release with parallel workflow support"
 
 # Push to GitHub
 git push origin master
-git push origin v0.1.0
+git push origin v0.0.1
 ```
 
 ### Step 3: Verify on GitHub
@@ -97,7 +97,6 @@ The community maintains an aggregator at **claudecodemarketplace.com** (115+ mar
    ```
 
 3. **Submit Pull Request:**
-
    - Title: "Add promptune marketplace"
    - Description: Brief overview of plugin features
    - Link to your repo
@@ -169,16 +168,16 @@ v1.0.0 → Stable release (API locked)
 ```bash
 # Edit .claude-plugin/plugin.json
 {
-  "version": "1.1.0"
+  "version": "0.0.1"
 }
 
 # Edit .claude-plugin/marketplace.json
 {
-  "version": "1.1.0",
+  "version": "0.0.1",
   "plugins": [
     {
       "name": "promptune",
-      "version": "1.1.0"
+      "version": "0.0.1"
     }
   ]
 }
@@ -188,7 +187,7 @@ v1.0.0 → Stable release (API locked)
 
 ```bash
 # Create/update CHANGELOG.md
-## [1.1.0] - 2025-10-15
+## [0.0.1] - 2026-01-17
 
 ### Added
 - New feature X
@@ -205,18 +204,18 @@ v1.0.0 → Stable release (API locked)
 
 ```bash
 git add .
-git commit -m "release: v1.1.0 - add feature X"
-git tag -a v1.1.0 -m "v1.1.0: Add feature X"
+git commit -m "release: v0.0.1 - add feature X"
+git tag -a v0.0.1 -m "v0.0.1: Add feature X"
 git push origin main
-git push origin v1.1.0
+git push origin v0.0.1
 ```
 
 **5. Create GitHub Release**
 
 ```bash
 # Via GitHub CLI
-gh release create v1.1.0 \
-  --title "v1.1.0: Add feature X" \
+gh release create v0.0.1 \
+  --title "v0.0.1: Add feature X" \
   --notes "See CHANGELOG.md for details"
 
 # Or via GitHub web UI:
@@ -253,10 +252,10 @@ Users can pin to specific versions:
 
 ```bash
 # Install specific version
-/plugin install XG4W/promptune@1.0.0
+/plugin install XG4W/promptune@0.0.1
 
 # Upgrade to new version
-/plugin install XG4W/promptune@1.1.0
+/plugin install XG4W/promptune@0.0.1
 ```
 
 ---
@@ -334,8 +333,8 @@ If you need to make breaking changes:
 
 1. **Announce in advance** (GitHub Discussions)
 2. **Document migration path** (MIGRATION.md)
-3. **Bump major version** (1.x.x → 2.0.0)
-4. **Provide deprecation warnings** (in v1.x)
+3. **Bump major version** (0.x.x → 1.0.0)
+4. **Provide deprecation warnings** (in v0.x)
 5. **Support old version** (for transition period)
 
 Example deprecation:
@@ -343,7 +342,7 @@ Example deprecation:
 ```javascript
 // In v1.9.0 (before breaking change)
 console.warn(
-	"⚠️  /old-command is deprecated. Use /new-command instead. Support will be removed in v2.0.0"
+	"⚠️  /old-command is deprecated. Use /new-command instead. Support will be removed in v2.0.0",
 );
 ```
 

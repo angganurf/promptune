@@ -1,13 +1,13 @@
 # promptune Feature Improvement Tracking
 # Version: 1.0
-# Created: 2025-10-27
+# Created: 2026-01-17
 # Purpose: Track improvement opportunities from Claude Code release notes analysis
 
 metadata:
   project: "promptune"
-  version: "0.8.9"
-  created: "2025-10-27"
-  last_updated: "2025-10-27"
+  version: "0.0.1"
+  created: "2026-01-17"
+  last_updated: "2026-01-17"
   tracking_version: "1.0"
   source: "PLUGIN_IMPROVEMENTS.md"
 
@@ -95,7 +95,7 @@ features:
 
     metadata:
       release_note: "v2.0.17 (Added Haiku 4.5)"
-      created: "2025-10-27"
+      created: "2026-01-17"
       assigned_to: null
       estimated_value: "$200/month savings"
       effort_to_value: "very_high"
@@ -253,8 +253,8 @@ features:
       rollback_plan: "Remove modifiedToolInput"
 
     metadata:
-      release_note: "v2.0.10 (PreToolUse can modify inputs)"
-      created: "2025-10-27"
+      release_note: "v0.0.1 (PreToolUse can modify inputs)"
+      created: "2026-01-17"
       assigned_to: null
       estimated_value: "-30% error rate"
       effort_to_value: "very_high"
@@ -405,7 +405,7 @@ features:
 
     metadata:
       release_note: "v1.0.123 (SlashCommand tool)"
-      created: "2025-10-27"
+      created: "2026-01-17"
       assigned_to: null
       estimated_value: "+15% command usage"
       effort_to_value: "high"

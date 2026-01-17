@@ -1,6 +1,6 @@
 # promptune Skills - 5-Minute Quick Start
 
-**Version:** 0.2.0
+**Version:** 0.0.1
 **Time to Value:** < 5 minutes
 
 ---
@@ -239,4 +239,4 @@ A: Skills are opt-in by design (Claude only activates when appropriate).
 
 **Welcome to the future of natural development assistance! 🚀**
 
-**Version:** 0.2.0 | **Status:** Production Ready | **License:** MIT
+**Version:** 0.0.1 | **Status:** Production Ready | **License:** MIT

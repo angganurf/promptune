@@ -1,8 +1,8 @@
 metadata:
   project: promptune
   version: "1.0"
-  created: "2025-10-28T04:17:30.132764"
-  last_scan: "2025-10-28T04:17:30.132928"
+  created: "2026-01-16T04:17:30.132764"
+  last_scan: "2026-01-16T04:17:30.132928"
   auto_population_enabled: true
 research:
   entries: []
@@ -40,8 +40,8 @@ plans:
         ## Solution: Tiered Architecture + Lifecycle Manageme..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T00:25:12.256Z"
-      created_at: "2025-10-28T04:17:30.132845"
+        timestamp: "2026-01-16T00:25:12.256Z"
+      created_at: "2026-01-16T04:17:30.132845"
       status: active
     - id: plan-002
       title: Plan 2
@@ -55,8 +55,8 @@ plans:
         ,\n  \"message\": {\n    \"content\": [\n      {\"type\": \"text\", ..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T01:38:05.703Z"
-      created_at: "2025-10-28T04:17:30.132862"
+        timestamp: "2026-01-16T01:38:05.703Z"
+      created_at: "2026-01-16T04:17:30.132862"
       status: active
     - id: plan-003
       title: Copy to project output-styles
@@ -89,8 +89,8 @@ plans:
         - Enables 99% extracti..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T01:42:33.388Z"
-      created_at: "2025-10-28T04:17:30.132874"
+        timestamp: "2026-01-16T01:42:33.388Z"
+      created_at: "2026-01-16T04:17:30.132874"
       status: active
     - id: plan-004
       title: System Architecture
@@ -105,8 +105,8 @@ plans:
         \ No..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T01:56:40.736Z"
-      created_at: "2025-10-28T04:17:30.132881"
+        timestamp: "2026-01-16T01:56:40.736Z"
+      created_at: "2026-01-16T04:17:30.132881"
       status: active
     - id: plan-005
       title: SessionEnd Extractor Hook Implementation
@@ -120,8 +120,8 @@ plans:
         \ completed work from transcripts after session ends\"\n  ..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T02:00:05.688Z"
-      created_at: "2025-10-28T04:17:30.132884"
+        timestamp: "2026-01-16T02:00:05.688Z"
+      created_at: "2026-01-16T04:17:30.132884"
       status: active
     - id: plan-006
       title: Extraction-Optimized Output Style Integration
@@ -135,8 +135,8 @@ plans:
         \ components:\n    - name: \"Enhanced ctx-configure\"\n      purpose: \"Uni..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T02:18:28.872Z"
-      created_at: "2025-10-28T04:17:30.132889"
+        timestamp: "2026-01-16T02:18:28.872Z"
+      created_at: "2026-01-16T04:17:30.132889"
       status: active
     - id: plan-007
       title: Enhanced ctx-configure with Project-Level + Status Line Integration
@@ -150,8 +150,8 @@ plans:
         \ Configuration Flow\"\n      purpose: \"Unified setup f..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T02:30:06.188Z"
-      created_at: "2025-10-28T04:17:30.132894"
+        timestamp: "2026-01-16T02:30:06.188Z"
+      created_at: "2026-01-16T04:17:30.132894"
       status: active
     - id: plan-008
       title: Copilot-First Tool Routing Architecture
@@ -165,8 +165,8 @@ plans:
         \ Description Enhancement\"\n      purpose: \"Make copilot-del..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T03:14:48.319Z"
-      created_at: "2025-10-28T04:17:30.132897"
+        timestamp: "2026-01-16T03:14:48.319Z"
+      created_at: "2026-01-16T04:17:30.132897"
       status: active
     - id: plan-009
       title: Intelligent Script Execution with AI Error Handling
@@ -180,8 +180,8 @@ plans:
         \    - name: \"Smart Script Wrapper\"\n      purpose: \"Exec..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T03:46:53.825Z"
-      created_at: "2025-10-28T04:17:30.132900"
+        timestamp: "2026-01-16T03:46:53.825Z"
+      created_at: "2026-01-16T04:17:30.132900"
       status: active
     - id: plan-010
       title: Hook-Based Script Discovery + Remote Detection Analysis
@@ -195,8 +195,8 @@ plans:
         \  discovery: \"Autocomplete (/ctx:commit)\"\n    user_aware..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T04:37:39.620Z"
-      created_at: "2025-10-28T04:17:30.132903"
+        timestamp: "2026-01-16T04:37:39.620Z"
+      created_at: "2026-01-16T04:17:30.132903"
       status: active
     - id: plan-011
       title: Unified Decision Tracking System
@@ -210,8 +210,8 @@ plans:
         \n    - \"etc...\"\n\n  t..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T05:48:53.473Z"
-      created_at: "2025-10-28T04:17:30.132924"
+        timestamp: "2026-01-16T05:48:53.473Z"
+      created_at: "2026-01-16T04:17:30.132924"
       status: active
     - id: plan-012
       title: Unified DRY Strategy & Architectural Review
@@ -225,8 +225,8 @@ plans:
         \      use_for: \"Documentation, designs, de..."
       conversation_link:
         session_id: 72e21041-8ffd-4a06-b97c-2b70c4ad8983
-        timestamp: "2025-10-28T05:59:22.446Z"
-      created_at: "2025-10-28T04:17:30.132927"
+        timestamp: "2026-01-16T05:59:22.446Z"
+      created_at: "2026-01-16T04:17:30.132927"
       status: active
 decisions:
   entries: []

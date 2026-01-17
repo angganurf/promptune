@@ -38,11 +38,11 @@ Claude: [Executes /sc:test automatically]
 
 ---
 
-## 🚀 NEW in v0.9.0: Context Engineering Framework
+## 🚀 NEW in v0.0.1: Context Engineering Framework
 
 **Complete context optimization with session duration tracking, usage monitoring, and smart tool routing**
 
-promptune v0.9.0 introduces comprehensive context engineering features that maximize session duration and minimize costs.
+promptune v0.0.1 introduces comprehensive context engineering features that maximize session duration and minimize costs.
 
 ### 📊 Session Duration Tracking (NEW)
 
@@ -66,7 +66,7 @@ Status: ✅ Good context preservation
 - ✅ Good (10-30 min): Healthy usage
 - 🎯 Excellent (30+ min): Excellent preservation
 
-### 💰 Usage Monitoring & Optimization (v0.8.9)
+### 💰 Usage Monitoring & Optimization (v0.0.1)
 
 **Automatic cost optimization based on quota consumption**:
 
@@ -81,7 +81,7 @@ Status: ✅ Good context preservation
 /promptune:usage     # Paste output to track in promptune
 ```
 
-### ⚡ Smart Tool Routing (v0.9.0)
+### ⚡ Smart Tool Routing (v0.0.1)
 
 **Intelligent delegation of expensive operations**:
 
@@ -94,11 +94,11 @@ Status: ✅ Good context preservation
 
 ---
 
-## 🚀 v0.3.0: Haiku Agent Architecture
+## 🚀 v0.0.1: Haiku Agent Architecture
 
 **81% cost reduction + 2x speedup with three-tier intelligence**
 
-promptune v0.3.0 introduces cost-optimized Haiku agents that dramatically reduce parallel workflow costs while improving performance.
+promptune v0.0.1 introduces cost-optimized Haiku agents that dramatically reduce parallel workflow costs while improving performance.
 
 ### 💰 Cost Optimization
 
@@ -278,7 +278,7 @@ Optimize now?"
 - **Model2Vec Embeddings** (0.2ms) - 30% of queries
 - **Semantic Router** (50ms) - 10% of queries
 
-### 🤖 **Haiku-Powered Interactive Analysis** (NEW in v0.9.0)
+### 🤖 **Haiku-Powered Interactive Analysis** (NEW in v0.0.1)
 
 Uses Claude Code headless mode with Haiku to provide intelligent command suggestions:
 
@@ -349,7 +349,7 @@ Understands natural variations and **automatically executes** the detected comma
 /plugin install XG4W/promptune
 
 # Or specify version
-/plugin install XG4W/promptune@0.1.0
+/plugin install XG4W/promptune@0.0.1
 ```
 
 **Option 3: Local Development**
@@ -602,7 +602,7 @@ Status line displays: 🎯 /sc:analyze (85% via keyword)
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/promptune
+git clone https://github.com/angganurf/promptune
 cd promptune
 
 # Install dependencies
@@ -723,7 +723,7 @@ Benchmarked on M1 MacBook Pro:
 - [x] `/ctx:execute` command
 - [x] `/ctx:status` command
 - [x] `/ctx:cleanup` command
-- [x] Status line integration (v0.5.4)
+- [x] Status line integration (v0.0.1)
 - [ ] Auto-discovery of all plugin commands
 - [ ] Learning mode (capture corrections)
 - [ ] Custom pattern editor
@@ -874,10 +874,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Links
 
-- **Documentation**: https://yourusername.github.io/promptune/
-- **GitHub**: https://github.com/yourusername/promptune
-- **Issues**: https://github.com/yourusername/promptune/issues
-- **Discussions**: https://github.com/yourusername/promptune/discussions
+- **Documentation**: https://angganurf.github.io/promptune/
+- **GitHub**: https://github.com/angganurf/promptune
+- **Issues**: https://github.com/angganurf/promptune/issues
+- **Discussions**: https://github.com/angganurf/promptune/discussions
 - **Claude Code Docs**: https://docs.claude.com/en/docs/claude-code/plugins
 - **Website**: https://promptune.com (coming soon)
 
@@ -885,10 +885,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- 📖 [Read the docs](https://yourusername.github.io/promptune/)
-- 💬 [Join discussions](https://github.com/yourusername/promptune/discussions)
-- 🐛 [Report bugs](https://github.com/yourusername/promptune/issues)
-- ⭐ [Star the repo](https://github.com/yourusername/promptune)
+- 📖 [Read the docs](https://angganurf.github.io/promptune/)
+- 💬 [Join discussions](https://github.com/angganurf/promptune/discussions)
+- 🐛 [Report bugs](https://github.com/angganurf/promptune/issues)
+- ⭐ [Star the repo](https://github.com/angganurf/promptune)
 
 ---
 

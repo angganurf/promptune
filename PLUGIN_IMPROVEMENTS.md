@@ -1,20 +1,20 @@
 # promptune Plugin Improvement Opportunities
 
-**Analysis Date:** 2025-10-27
-**Plugin Version:** 0.8.9
-**Based on:** Claude Code release notes through v2.0.28
+**Analysis Date:** 2026-01-17
+**Plugin Version:** 0.0.1
+**Based on:** Claude Code release notes through v2.1.11
 
 ---
 
 ## Executive Summary
 
-After analyzing Claude Code release notes (v0.2.21 through v2.0.28), I've identified **15 high-impact improvement opportunities** for the promptune plugin. These improvements leverage new Claude Code features and could significantly enhance functionality, performance, and user experience.
+After analyzing Claude Code release notes (v2.1.11 through v2.1.11), I've identified **15 high-impact improvement opportunities** for the promptune plugin. These improvements leverage new Claude Code features and could significantly enhance functionality, performance, and user experience.
 
 **Top 3 Priorities:**
 
-1. **Leverage Haiku 4.5** for 87% cost reduction (v2.0.17)
-2. **Add AskUserQuestion integration** for interactive suggestions (v2.0.21)
-3. **Implement PreToolUse modifications** for smarter routing (v2.0.10)
+1. **Leverage Haiku 4.5** for 87% cost reduction (v2.1.11)
+2. **Add AskUserQuestion integration** for interactive suggestions (v2.1.11)
+3. **Implement PreToolUse modifications** for smarter routing (v2.1.11)
 
 ---
 
@@ -31,12 +31,12 @@ After analyzing Claude Code release notes (v0.2.21 through v2.0.28), I've identi
 
 ### Gaps Identified 🔍
 
-- ❌ Not leveraging Haiku 4.5 for analysis (v2.0.17)
-- ❌ Not using AskUserQuestion tool (v2.0.21)
-- ❌ PreToolUse hook doesn't modify tool inputs (v2.0.10)
-- ❌ No SlashCommand tool integration (v1.0.123)
-- ❌ Missing SessionEnd hook (v1.0.85)
-- ❌ No Explore subagent integration (v2.0.17)
+- ❌ Not leveraging Haiku 4.5 for analysis (v2.1.11)
+- ❌ Not using AskUserQuestion tool (v2.1.11)
+- ❌ PreToolUse hook doesn't modify tool inputs (v2.1.11)
+- ❌ No SlashCommand tool integration (v2.1.11)
+- ❌ Missing SessionEnd hook (v2.1.11)
+- ❌ No Explore subagent integration (v2.1.11)
 - ❌ Not using structured MCP content (v2.0.21)
 - ❌ No plugin validation CI/CD (v2.0.12)
 - ❌ Missing /doctor integration (v1.0.68)
@@ -49,7 +49,7 @@ After analyzing Claude Code release notes (v0.2.21 through v2.0.28), I've identi
 
 #### 1.1 Leverage Haiku 4.5 for Intent Analysis 🚀
 
-**Release:** v2.0.17 (Added Haiku 4.5)
+**Release:** v2.1.11 (Added Haiku 4.5)
 **Current State:** Uses Python-based ClaudeCodeHaikuEngineer
 **Opportunity:** Haiku 4.5 is 87% cheaper than Sonnet and significantly faster
 
@@ -60,13 +60,13 @@ After analyzing Claude Code release notes (v0.2.21 through v2.0.28), I've identi
 class ClaudeCodeHaikuEngineer:
     def __init__(self):
         # Change from generic "claude" to explicit "haiku-4-5"
-        self.model = "claude-haiku-4-5-20250929"  # Haiku 4.5
+        self.model = "claude-haiku-4-5-20260117"  # Haiku 4.5
 
     def analyze_intent(self, prompt: str, detected_command: str) -> dict:
         """Use Haiku 4.5 for ultra-fast, ultra-cheap analysis."""
         cmd = [
             "claude",
-            "--model", "claude-haiku-4-5-20250929",  # Explicit Haiku 4.5
+            "--model", "claude-haiku-4-5-20260117",  # Explicit Haiku 4.5
             "--print",
             "-p", f"Analyze if '{detected_command}' is best for: {prompt[:200]}"
         ]
@@ -85,7 +85,7 @@ class ClaudeCodeHaikuEngineer:
 
 #### 1.2 Add AskUserQuestion Integration 🎯
 
-**Release:** v2.0.21 (Interactive question tool)
+**Release:** v2.1.11 (Interactive question tool)
 **Current State:** Uses feedback field for suggestions
 **Opportunity:** Native interactive questions with better UX
 
@@ -477,7 +477,7 @@ const server = new Server(
 		capabilities: {
 			tools: {},
 		},
-	}
+	},
 );
 
 // Tool: Get detection stats
@@ -814,13 +814,11 @@ Use Plan subagent (Claude's built-in) OR /ctx:plan command.
 **Goal:** Immediate cost savings and UX improvements
 
 1. **Upgrade to Haiku 4.5** for intent analysis (1.1)
-
    - Update ClaudeCodeHaikuEngineer to use explicit Haiku 4.5 model
    - Test performance and cost savings
    - Update documentation
 
 2. **Add AskUserQuestion integration** (1.2)
-
    - Implement interactive suggestions
    - A/B test with current feedback approach
    - Gather user feedback
@@ -843,14 +841,12 @@ Use Plan subagent (Claude's built-in) OR /ctx:plan command.
 **Goal:** Enhance core functionality and reliability
 
 4. **Implement PreToolUse modifications** (1.3)
-
    - Add intelligent tool input modifications
    - Auto-add timeouts
    - Route to Haiku automatically
    - Test with real usage
 
 5. **Integrate Explore subagent** (2.1)
-
    - Detect search intents
    - Suggest Explore subagent
    - Measure cost savings
@@ -875,14 +871,12 @@ Use Plan subagent (Claude's built-in) OR /ctx:plan command.
 **Goal:** Advanced integrations and analytics
 
 7. **Build MCP server** (2.4)
-
    - Expose analytics as MCP tools
    - Use structured content
    - Enable programmatic access
    - Document API
 
 8. **Implement /doctor integration** (3.1)
-
    - Add diagnostic context
    - Better error messages
    - Self-serve debugging
@@ -907,13 +901,11 @@ Use Plan subagent (Claude's built-in) OR /ctx:plan command.
 **Goal:** Continuous improvement and quality assurance
 
 10. **Add plugin validation CI/CD** (3.2)
-
     - Automated testing
     - Pre-release validation
     - Prevent regressions
 
 11. **Sandbox mode support** (3.3)
-
     - Detect sandbox
     - Adjust behavior
     - Better warnings
