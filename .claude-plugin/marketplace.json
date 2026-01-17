@@ -1,0 +1,47 @@
+{
+	"name": "promptune",
+	"owner": {
+		"name": "XG4W",
+		"email": "xg4dobuleu@gmail.com",
+		"url": "https://github.com/xg4w"
+	},
+	"description": "Precision-tuned context engineering for Claude Code. Natural language to slash command mapping, modular development plans, and parallel workflow execution.",
+	"version": "0.0.1",
+	"plugins": [
+		{
+			"name": "promptune",
+			"version": "0.0.1",
+			"source": "./",
+			"description": "Precision-tuned context engineering for Claude Code. Natural language to slash command mapping, modular development plans, and parallel workflow execution.",
+			"category": "Productivity",
+			"tags": [
+				"prompt-engineering",
+				"context-engineering",
+				"intent-detection",
+				"natural-language",
+				"parallel-development",
+				"productivity",
+				"automation",
+				"cost-optimization"
+			],
+			"author": {
+				"name": "XG4W",
+				"email": "xg4dobuleu@gmail.com",
+				"url": "https://github.com/xg4w"
+			},
+			"repository": "https://github.com/xg4w/promptune",
+			"homepage": "https://github.com/xg4w/promptune#readme",
+			"license": "MIT",
+			"keywords": [
+				"prompt-engineering",
+				"context-engineering",
+				"intent-detection",
+				"natural-language",
+				"parallel-development",
+				"productivity",
+				"cost-optimization"
+			],
+			"strict": true
+		}
+	]
+}

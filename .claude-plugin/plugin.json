@@ -1,0 +1,34 @@
+{
+	"name": "promptune",
+	"version": "0.0.1",
+	"description": "Precision-tuned context engineering for Claude Code. Optimize context flow with modular plans (95% fewer tokens), parallel workflows (81% cost reduction), and zero-transformation architecture. Quick research (/ctx:research: 3 parallel agents, 1-2 min). promptune your workflows for peak performance!",
+	"author": {
+		"name": "XG4W",
+		"email": "xg4dobuleu@gmail.com",
+		"url": "https://github.com/xg4w"
+	},
+	"repository": "https://github.com/xg4w/promptune",
+	"homepage": "https://github.com/xg4w/promptune#readme",
+	"license": "MIT",
+	"keywords": [
+		"prompt-engineering",
+		"context-engineering",
+		"context-optimization",
+		"parallel-development",
+		"workflow-automation",
+		"git-worktrees",
+		"cost-optimization",
+		"performance-optimization",
+		"haiku-agents",
+		"modular-plans",
+		"zero-transformation",
+		"three-tier-architecture",
+		"autonomous-execution",
+		"natural-language",
+		"intent-detection",
+		"command-mapping",
+		"productivity",
+		"ai-assistant",
+		"claude-code"
+	]
+}
