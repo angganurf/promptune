@@ -1,4 +1,4 @@
-# promptune v0.5.0 Implementation Plan
+# promptune v0.0.1 Implementation Plan
 
 ## Cost Optimization & Discovery Features
 
@@ -526,7 +526,7 @@ git worktree add ../promptune-orchestration -b feature/enhanced-orchestration
 
 ```bash
 git worktree add ../promptune-testing -b test/integration-qa
-git worktree add ../promptune-docs -b docs/v0.5.0
+git worktree add ../promptune-docs -b docs/v0.0.1
 ```
 
 **Task F: Testing & QA (6-8h)**
@@ -598,7 +598,7 @@ Use `/promptune:parallel-execute` to orchestrate development:
 # Phase 3: Validation (parallel)
 /promptune:parallel-execute \
   --tasks="Testing,Documentation" \
-  --branches="test/integration-qa,docs/v0.5.0"
+  --branches="test/integration-qa,docs/v0.0.1"
 # Wall clock: 6-8h
 ```
 
@@ -652,7 +652,7 @@ Use `/promptune:parallel-execute` to orchestrate development:
 
 ### Phase 2: Beta Release (Week 5)
 
-1. Tag `v0.5.0-beta`
+1. Tag `v0.0.1-beta`
 2. Announce on GitHub Discussions
 3. Recruit 10-20 beta testers
 4. Monitor adoption metrics
@@ -660,7 +660,7 @@ Use `/promptune:parallel-execute` to orchestrate development:
 
 ### Phase 3: General Availability (Week 6)
 
-1. Tag `v0.5.0`
+1. Tag `v0.0.1`
 2. Deploy docs to GitHub Pages
 3. Announce on social media (Reddit, Discord, Twitter)
 4. Monitor cost savings metrics
@@ -718,7 +718,6 @@ Use `/promptune:parallel-execute` to orchestrate development:
 ### Immediate Actions
 
 1. **Review and approve this plan**
-
    - Validate technical approach
    - Confirm resource allocation
    - Approve timeline
@@ -732,7 +731,6 @@ Use `/promptune:parallel-execute` to orchestrate development:
    ```
 
 3. **Create GitHub Project Board**
-
    - One column per phase
    - One card per task
    - Track progress visually
@@ -763,7 +761,7 @@ Use `/promptune:parallel-execute` to orchestrate development:
 ```
 promptune/
 ├── .plans/
-│   └── IMPLEMENTATION_PLAN_v0.5.0.md  # This document
+│   └── IMPLEMENTATION_PLAN_v0.0.1.md  # This document
 ├── lib/
 │   ├── cost_tracker.py                # NEW - Task A
 │   ├── contextual_help.py             # NEW - Task B
@@ -808,12 +806,10 @@ promptune/
 ## References
 
 - **Analysis Documents:**
-
   - `/tmp/promptune-analysis-summary.md` - Executive summary
   - `/tmp/promptune-issues-analysis.md` - Detailed issue breakdown
 
 - **GitHub Issues:**
-
   - Issue #5: Agent Cost Advisor Skill
   - Issue #6: Cross-Branch API Validation
   - Issue #7: Cost Tracking and Reporting

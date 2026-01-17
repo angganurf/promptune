@@ -365,7 +365,7 @@ cd promptune
 
 ### One-Time Configuration (Recommended)
 
-**NEW in v0.5.0:** Run the configuration command for persistent visibility:
+**NEW in v0.0.1:** Run the configuration command for persistent visibility:
 
 ```bash
 /ctx:configure

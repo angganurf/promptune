@@ -162,19 +162,16 @@ Assuming:
 ### Key Principles
 
 1. **Sonnet for Thinking, Haiku for Doing**
-
    - Complex reasoning → Sonnet
    - Repetitive execution → Haiku
    - Teaching & guidance → Sonnet (Skills)
 
 2. **Context Isolation**
-
    - Each Haiku agent has its own context
    - No pollution of main conversation
    - Clean, focused execution
 
 3. **Cost Optimization**
-
    - 80% of work done by Haiku
    - 20% of work done by Sonnet
    - 81% cost reduction overall
@@ -475,13 +472,11 @@ Quality: Same (Haiku perfect for execution)
 ### Phase 1: Create Haiku Agents (Week 1)
 
 1. **parallel-task-executor** (highest impact)
-
    - Replaces current Task tool subagents
    - 81% cost reduction
    - Test with 2-3 tasks first
 
 2. **worktree-manager** (high frequency)
-
    - Handles all git worktree operations
    - Called by parallel-task-executor
    - Reduces main agent pollution
@@ -494,13 +489,11 @@ Quality: Same (Haiku perfect for execution)
 ### Phase 2: Integrate with Skills (Week 2)
 
 1. Update **parallel-development-expert** skill
-
    - Recommends Haiku agent usage
    - Explains cost savings to users
    - Delegates to agents after planning
 
 2. Update **performance-optimizer** skill
-
    - Uses performance-analyzer Haiku agent
    - Benchmarks with minimal cost
    - Reports to user via main conversation
@@ -513,7 +506,6 @@ Quality: Same (Haiku perfect for execution)
 ### Phase 3: Advanced Agents (Week 3)
 
 4. **test-runner** (testing workflows)
-
    - Autonomous test execution
    - Issue creation for failures
    - Performance benchmarking
@@ -694,7 +686,6 @@ Update parallel-execute command
 ### Short-term (v0.4.0)
 
 - **dependency-analyzer** (Haiku)
-
   - Analyzes code dependencies
   - Identifies conflicts
   - Reports findings
@@ -704,10 +695,9 @@ Update parallel-execute command
   - Requires judgment
   - Uses Sonnet for reasoning
 
-### Medium-term (v0.5.0)
+### Medium-term (v0.0.1)
 
 - **Agent pools**
-
   - Pre-warmed Haiku agents
   - Faster spawn time
   - Better resource utilization
@@ -720,7 +710,6 @@ Update parallel-execute command
 ### Long-term (v1.0.0)
 
 - **Multi-model optimization**
-
   - Opus for super-complex tasks
   - Sonnet for standard tasks
   - Haiku for execution

@@ -210,13 +210,11 @@ You help users discover and understand promptune plugin capabilities.
 promptune provides **natural language to slash command mapping** with three tiers:
 
 1. **Intent Detection** (automatic)
-
    - Detects slash commands from natural language
    - 3-tier cascade: Keyword → Model2Vec → Semantic Router
    - Confidence scoring
 
 2. **Parallel Development** (workflow)
-
    - Research → Plan → Execute → Cleanup
    - Git worktree-based parallel execution
    - Multi-agent coordination
@@ -728,31 +726,31 @@ Discovery capability: ✅ PROACTIVE (skills suggest automatically)
 
 ---
 
-## Integration with v0.5.0 Plan
+## Integration with v0.0.1 Plan
 
-This architecture improvement **complements** the v0.5.0 cost optimization plan:
+This architecture improvement **complements** the v0.0.1 cost optimization plan:
 
 ### Combined Implementation Order
 
 **Week 1:**
 
-- v0.5.0 Phase 1: Cost tracking, contextual help, validator (8-10h)
+- v0.0.1 Phase 1: Cost tracking, contextual help, validator (8-10h)
 - v0.5.1 Phase 1: Discovery skills (3-4h)
 - **Total: 11-14h wall clock**
 
 **Week 2:**
 
-- v0.5.0 Phase 2: Agent cost advisor, orchestration (12-15h)
+- v0.0.1 Phase 2: Agent cost advisor, orchestration (12-15h)
 - v0.5.1 Phase 2: Research command (3-4h)
 - **Total: 15-19h wall clock**
 
 **Week 3:**
 
-- v0.5.0 Phase 3: Testing, documentation (6-8h)
+- v0.0.1 Phase 3: Testing, documentation (6-8h)
 - v0.5.1 Phase 3: Planning refactor (2-3h)
 - **Total: 8-11h wall clock**
 
-**Grand Total:** 34-44 hours (vs 42-54h for v0.5.0 alone)
+**Grand Total:** 34-44 hours (vs 42-54h for v0.0.1 alone)
 
 **Synergy:** Discovery skills make cost optimization features more discoverable!
 
@@ -780,7 +778,7 @@ This architecture improvement **complements** the v0.5.0 cost optimization plan:
 
 ### Phase 2: Beta (v0.5.1-beta)
 
-- Bundle with v0.5.0 release
+- Bundle with v0.0.1 release
 - Announce discovery improvements
 - Collect activation metrics
 - Adjust based on feedback
@@ -846,7 +844,7 @@ These architecture improvements address the two critical gaps:
 **Context Cost:** +230 tokens (~$0.0007 per session)
 **ROI:** Massive (adoption drives all other features)
 
-**Recommendation:** Implement in parallel with v0.5.0 for maximum impact.
+**Recommendation:** Implement in parallel with v0.0.1 for maximum impact.
 
 ---
 
@@ -855,6 +853,6 @@ These architecture improvements address the two critical gaps:
 1. **Review this plan** - Validate approach
 2. **Choose priority** - All phases or just discovery?
 3. **Begin Phase 1** - Create skills (highest impact)
-4. **Integrate with v0.5.0** - Combined rollout
+4. **Integrate with v0.0.1** - Combined rollout
 
 **Ready to implement?** The architecture is fully specified.
