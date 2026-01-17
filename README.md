@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/assets/images/logo.svg" alt="promptune Logo" width="120" height="120">
+  <img src="docs/assets/images/logo.png" alt="promptune Logo" width="120" height="120">
   <h1>promptune</h1>
   <p><strong>Precision-Tuned Context Engineering for Claude Code</strong></p>
 </div>
@@ -38,7 +38,7 @@ Claude: [Executes /sc:test automatically]
 
 ---
 
-## 🚀 NEW in v0.0.1: Context Engineering Framework
+## v0.0.1: Context Engineering Framework
 
 **Complete context optimization with session duration tracking, usage monitoring, and smart tool routing**
 
@@ -54,8 +54,8 @@ promptune v0.0.1 introduces comprehensive context engineering features that maxi
 
 # Example output:
 Session: session_1730000000
-Started: 2025-10-26 21:00:00
-First Compact: 2025-10-26 21:28:00
+Started: 2026-01-17 21:00:00
+First Compact: 2026-01-17 21:28:00
 Duration: 28.0 minutes
 Status: ✅ Good context preservation
 ```
@@ -203,7 +203,7 @@ Result: 81% cost reduction, 2x performance, same quality!
 
 ---
 
-## ✨ AI-Powered Skills (v0.2.0)
+## ✨ AI-Powered Skills (v0.0.1)
 
 promptune now includes **autonomous expert guidance** through Skills. No commands to memorize - just ask questions naturally!
 
@@ -521,7 +521,7 @@ User prompt: "analyze my code please"
 
 ### 📊 Status Line Integration
 
-**NEW in v0.5.4:** Real-time detection display in your status line!
+**NEW in v0.0.1:** Real-time detection display in your status line!
 
 promptune now writes detection data that can be displayed in Claude Code's status line, giving you instant visual feedback without consuming context tokens.
 

@@ -46,7 +46,7 @@ function main() {
     // const event = JSON.parse(require('fs').readFileSync(0, 'utf-8'));
 
     const promptuneInfo = `
-🎯 promptune Active (v0.5.4) - Natural Language → Slash Commands
+🎯 promptune Active (v0.0.1) - Natural Language → Slash Commands
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

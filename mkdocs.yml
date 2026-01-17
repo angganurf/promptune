@@ -37,8 +37,8 @@ theme:
         name: Switch to light mode
 
   # Logo and favicon
-  logo: assets/images/logo.svg
-  favicon: assets/images/logo.svg
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
   icon:
     repo: fontawesome/brands/github
 

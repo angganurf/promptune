@@ -1,6 +1,6 @@
 # promptune Skills - Autonomous Expert Guidance
 
-**Version:** 0.5.4
+**Version:** 0.0.1
 **Status:** ✅ Experimental (0.x)
 
 promptune now includes **AI-powered Skills** that provide autonomous expert guidance. Skills are **model-invoked** - Claude automatically activates them when you need help, no commands required!
@@ -541,18 +541,15 @@ Claude: "Let me diagnose that worktree error..." (git-worktree-master)
 ### For Developers
 
 1. **Keep Skills Focused**
-
    - One skill = one expertise area
    - Don't create mega-skills
 
 2. **Write Specific Descriptions**
-
    - Include trigger keywords
    - Explain use cases
    - Be concrete, not vague
 
 3. **Teach, Don't Just Execute**
-
    - Explain what you're doing
    - Show why it matters
    - Prevent future issues
@@ -648,7 +645,7 @@ Proceed?"
 
 ---
 
-**Version:** 0.5.4
+**Version:** 0.0.1
 **Last Updated:** 2025-10-25
 **Status:** Experimental (0.x)
 **License:** MIT
